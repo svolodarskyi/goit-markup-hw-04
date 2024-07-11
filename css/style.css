@@ -38,12 +38,6 @@ a {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-button {
-    transition-property: coursor, background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 p {
     margin: 0;
 }
@@ -64,9 +58,6 @@ svg{
     padding: 0 15px;
 }
 
-.transition-props{
-    
-}
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -77,8 +68,6 @@ svg{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 
 
@@ -198,7 +187,8 @@ svg{
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
-    background-size: 1440рх, cover;
+    max-width: 1440px;        
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
@@ -230,6 +220,9 @@ svg{
     min-width: 169px;
     border: none;
     margin: 0 auto;
+    transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
