@@ -14,12 +14,12 @@ body {
     background-color: #FFFFFF;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -42,11 +42,11 @@ p {
     margin: 0;
 }
 
-img{
+img {
     display: block;
 }
 
-svg{
+svg {
     fill: currentColor;
 }
 
@@ -64,21 +64,20 @@ svg{
 
 .page-header .container {
     display: flex;
-        align-items: center;
+    align-items: center;
 }
 
 
 .nav-panel {
     display: flex;
-        align-items: center;
+    align-items: center;
 }
 
-.nav-panel .menu-items{
+.nav-panel .menu-items {
     display: flex;
     flex-direction: row;
     gap: 40px;
 }
-
 
 
 .logo {
@@ -89,10 +88,10 @@ svg{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    
+
 }
 
-.page-header .logo{
+.page-header .logo {
     margin-right: 76px;
 }
 
@@ -118,7 +117,7 @@ svg{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-item-link.current{
+.menu-item-link.current {
     position: relative;
 }
 
@@ -149,7 +148,7 @@ svg{
 
 address {
     font-style: normal;
-        margin-left: auto;
+    margin-left: auto;
 }
 
 .contacts {
@@ -161,12 +160,12 @@ address {
 
 .contacts-link {
     display: block;
-        padding: 24px 0;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 
 .contacts-link:last-child {
@@ -184,17 +183,17 @@ address {
 
 .main-section {
     background-color: #2E2F42;
-    padding: 188px 0;  
+    padding: 188px 0;
     text-align: center;
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
-    max-width: 1440px;        
+    max-width: 1440px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
-    
+
 }
 
 .main-section-header {
@@ -206,7 +205,6 @@ address {
     letter-spacing: 0.02em;
     margin: 0 auto 48px auto;
     max-width: 496px
-    
 }
 
 .main-section-button {
@@ -217,15 +215,15 @@ address {
     line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 4px;
-    padding: 16px ;
+    padding: 16px;
     height: 56px;
     display: block;
     min-width: 169px;
     border: none;
     margin: 0 auto;
     transition-property: background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -237,16 +235,16 @@ address {
     background-color: #404BBF;
 }
 
-.section{
+.section {
     padding: 120px 0;
 }
 
-.principles-list{
+.principles-list {
     display: flex;
     gap: 24px;
 }
 
-.principles-list-item{
+.principles-list-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -255,7 +253,7 @@ address {
     margin: 0 auto;
 }
 
-.principles-list-icon-container{
+.principles-list-icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -266,7 +264,6 @@ address {
     background: #f4f4fd;
     margin-bottom: 8px;
 }
-
 
 
 .visually-hidden {
@@ -305,12 +302,12 @@ address {
     background-color: #F4F4FD;
 }
 
-.container.team{
+.container.team {
     padding-left: 16px;
     padding-right: 16px;
 }
 
-.team-list{
+.team-list {
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -323,25 +320,24 @@ address {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-item-text-block{
+.team-item-text-block {
     padding: 32px 0;
     text-align: center;
 }
 
-.team-item-text-block-social-network-icons-list{
+.team-item-text-block-social-network-icons-list {
     display: flex;
     margin-top: 8px;
     gap: 24px;
     justify-content: center;
 }
 
-.team-item-text-block-social-network-icons-item{
+.team-item-text-block-social-network-icons-item {
     width: 40px;
     height: 40px;
 }
 
-.team-item-text-block-social-network-icon-item-link
-{
+.team-item-text-block-social-network-icon-item-link {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -353,14 +349,13 @@ address {
 }
 
 .team-item-text-block-social-network-icon-item-link:hover,
-.team-item-text-block-social-network-icon-item-link:focus{
+.team-item-text-block-social-network-icon-item-link:focus {
     background-color: #404bbf;
 }
 
-.team-item-text-block-social-network-icon{
+.team-item-text-block-social-network-icon {
     fill: #f4f4fd
 }
-
 
 
 .team-header,
@@ -384,7 +379,7 @@ address {
     color: #2E2F42;
 }
 
-.portfolio-list{
+.portfolio-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -406,37 +401,34 @@ address {
 }
 
 
-.portfolio-item-overlay-text{
+.portfolio-item-overlay-text {
     position: absolute;
-        padding-top: 40px;
-        padding-left: 32px;
-        padding-right: 32px;
-        margin: 0;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #4d5ae5;    
-        transform: translatey(100%);
-        transition-property: transform;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        font-weight: 400;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+    padding: 40px 32px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    transform: translatey(100%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
 .portfolio-item:hover .portfolio-item-overlay-text {
     transform: translatey(0);
-    
+
 
 }
 
-.portfolio-item:hover{
+.portfolio-item:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     cursor: pointer;
 }
-
 
 
 .portfolio-item-text-block {
@@ -453,19 +445,20 @@ address {
     padding: 100px 0;
 }
 
-.footer .container{
+.footer .container {
     display: flex;
     align-items: baseline;
 }
 
-.footer-branding-block{
+.footer-branding-block {
     margin-right: 120px;
 }
 
-.footer .logo{
+.footer .logo {
     display: inline-block;
     margin-bottom: 16px;
 }
+
 .footer-logo-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -474,7 +467,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    
+
 }
 
 .footer-text {
@@ -484,17 +477,17 @@ address {
     width: 264px;
 }
 
-.footer-social-media-header{
-        font-weight: 500;
-        font-size: 16px;
-    
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #fff;
-        margin-bottom: 16px;
+.footer-social-media-header {
+    font-weight: 500;
+    font-size: 16px;
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
 }
 
-.footer-social-network-icons{
+.footer-social-network-icons {
     display: flex;
     gap: 16px;
 }
@@ -511,18 +504,16 @@ address {
 }
 
 .footer-social-network-icon-link:hover,
-.footer-social-network-icon-link:focus
-{
-background-color: #31d0aa;
+.footer-social-network-icon-link:focus {
+    background-color: #31d0aa;
 }
 
 .footer-social-network-icon-item {
     width: 40px;
     height: 40px;
-    
+
 }
 
-.footer-social-network-icon{
+.footer-social-network-icon {
     fill: #f4f4fd
-    
 }
