@@ -405,32 +405,30 @@ address {
     overflow: hidden;
 }
 
-.portfolio-item-overlay {
-    position: absolute;
-    padding-top: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #4d5ae5;;
-
-    transform: translatey(100%);
-    transition-property: transform;
-    transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
 
 .portfolio-item-overlay-text{
+    position: absolute;
+        padding-top: 40px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        ;
+    
+        transform: translatey(100%);
+        transition-property: transform;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         font-weight: 400;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
 
-.portfolio-item:hover .portfolio-item-overlay {
+.portfolio-item:hover .portfolio-item-overlay-text {
     transform: translatey(0);
     
 
@@ -440,9 +438,6 @@ address {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     cursor: pointer;
 }
-
-
-
 
 
 
